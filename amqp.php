@@ -485,7 +485,7 @@ class AMQPExchange
      * @throw AMQPChannelException    Throws an exception if the channel is not open.
      * @throw AMQPConnectionException Throws an exception if the connection to the broker was lost
      */
-    public function declares()
+    public function declare()
     {
     }
 
@@ -733,7 +733,7 @@ class AMQPQueue
      * @throw AMQPChannelException    Throws an exception if the channel is not open.
      * @throw AMQPConnectionException Throws an exception if the connection to the broker was lost
      */
-    public function declares()
+    public function declare()
     {
     }
 
